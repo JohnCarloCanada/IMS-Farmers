@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .sr-only {
+    @apply w-0 h-0 text-[0px];
+  }
+}
